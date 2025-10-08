@@ -19,7 +19,7 @@ objekt je programska struktura koja se sastoji od:
  - metoda (funkcija), čijim izvršavanjem se njime manipulira
 klasa je predložak, putem kojeg je moguće kreirati neograničen broj objekata istog tipa, ali drugačijih podataka
 
-**Po čemu se statički članovi razlikuju od standardnih članova klase? **
+**Po čemu se statički članovi razlikuju od standardnih članova klase?**
 
 statički članovi klase u PHP-u pripadaju samoj klasi, a ne pojedinačnim objektima, dok standardni (nestatički) članovi pripadaju svakoj instanci klase posebno. statičkim članovima se pristupa pomoću operatora ::, bez kreiranja objekta, dok se standardnim članovima pristupa kroz instancu pomoću operatora ->. statički članovi dijele isto stanje među svim objektima klase, dok svaki objekt ima svoje vrijednosti nestatičkih članova
 
